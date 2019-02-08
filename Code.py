@@ -123,15 +123,6 @@ labelencoder_X_1 = LabelEncoder()
 X_train.values[:, 1] = labelencoder_X_1.fit_transform(X_train.values[:, 1])
 onehotencoder = OneHotEncoder(categorical_features = [1])
 X_train = onehotencoder.fit_transform(X_train).toarray()
-
-labelencoder_X_3 = LabelEncoder()
-X_train.values[:, 3] = labelencoder_X_3.fit_transform(X_train.values[:, 3])
-onehotencoder = OneHotEncoder(categorical_features = [3])
-X_train = onehotencoder.fit_transform(X_train).toarray()
-
-labelencoder_X_5 = LabelEncoder()
-X_train.values[:, 5] = labelencoder_X_5.fit_transform(X_train.values[:, 5])
-onehotencoder = OneHotEncoder(categorical_features = [5])
 X_train = onehotencoder.fit_transform(X_train).toarray()
 '''
 
