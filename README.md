@@ -1,6 +1,7 @@
 # The_Invite_List
 
 Problem Statement :-
+
 Mr. Ambani wants to create the guest list for his daughter’s marriage. He doesn’t want to leave out rich people from the city. But he also doesn’t want to call a lot of people.
 
 You, a data scientist at Reliance, are given the task to make sure his invite list is concise yet including most of the rich people in the city.
