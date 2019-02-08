@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Feb  5 22:00:51 2019
-
-@author: Ankur
-"""
-
 import pandas as pd
 import numpy as np
 
@@ -118,14 +111,6 @@ y_pred = lr.predict(X_test)
 from sklearn.metrics import confusion_matrix
 cm_GaussianNB = confusion_matrix(y_test, y_pred)
 # 78.8%
-
-from sklearn import svm
-lr=svm.SVC()
-lr.fit(X_train,y_train)
-y_pred = lr.predict(X_test)
-from sklearn.metrics import confusion_matrix
-cm_svm = confusion_matrix(y_test, y_pred)
-
 
 '''from fancyimpute import KNN    
 # Use 10 nearest rows which have a feature to fill in each row's missing features
